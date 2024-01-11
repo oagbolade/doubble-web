@@ -1,0 +1,97 @@
+@media (min-width: 768px) {
+  .settingscontainer {
+    margin-top: 120px;
+  }
+
+  .settingsimage {
+    left: 0;
+    top: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .settingscontainer {
+    margin-top: 60px;
+  }
+
+  .settingsimage {
+    left: 0;
+    top: 60px;
+  }
+}
+
+.profileform {
+  box-sizing: border-box;
+}
+
+.profilebutton {
+  background-color: var(--primary-blue);
+  color: var(--secondary-blue);
+  height: var(--input-height);
+  border: none;
+  border-radius: var(--min-radius);
+  font-size: 1.12em;
+}
+
+.profileforminput {
+  min-width: auto !important;
+}
+
+.cardscontainer {
+  overflow-x: auto;
+}
+
+.tabcontent {
+  height: calc(100% - 40px);
+  overflow-y: auto;
+}
+
+.large {
+  display: block;
+}
+.mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .large {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+}
+
+.menu {
+  position: fixed;
+  left: 0;
+  top: 55px;
+  height: calc(100vh - 55px);
+  background-color: white;
+  overflow-y: auto;
+}
+
+.topbar {
+  background: linear-gradient(180deg, #263e61 -198.57%, #00ccff 74.11%);
+  height: 100px;
+  width: 100vw;
+}
+
+.backbutton {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  background-color: var(--main-bg);
+  width: 100vw;
+  top: 60px;
+  padding-top: 20px;
+}
+
+.mobilecontentcontainer {
+  margin-top: 50px;
+}
+
+.tumbleweed {
+  display: flex;
+  justify-content: center;
+}

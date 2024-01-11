@@ -1,0 +1,10 @@
+.endinvestmentbutton {
+  width: 170px;
+  height: 50px;
+  background: #263e61;
+  color: #00ccff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}

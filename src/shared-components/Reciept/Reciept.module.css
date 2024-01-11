@@ -1,0 +1,65 @@
+.innercontent {
+    padding: 24px;
+    width: 100%;
+    min-height: 350px;
+    background: url("../../../public/reciept-bg.png") no-repeat;
+    background-position: center;
+}
+
+.dotted {
+    border: 1px solid #DADADA;
+    width: 100%;
+    border-style: dashed;
+}
+
+.smalltitle {
+    font-size: 1.2em;
+    line-height: 21px;
+    color: var(--secondary-blue);
+    text-align: center;
+}
+
+.bigtitle {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.7em;
+    line-height: 33px;
+    text-align: center;
+    color: var(--secondary-blue);
+}
+
+.itemtitle {
+    font-size: .8em;
+    line-height: 12px;
+}
+
+.itemvalue {
+    font-size: .9em;
+    line-height: 15px;
+    text-align: right;
+    color: var(--secondary-blue);
+}
+
+.divider {
+    border: 1px solid #DADADA;
+    width: 100%;
+}
+
+.btn {
+    background: var(--secondary-blue);
+    color: var(--primary-blue);
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 19px;
+    height: 50px;
+    width: 80%;
+    cursor: pointer;
+    border: none;
+}
+
+.backhome {
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--secondary-blue);
+    text-align: center;
+}

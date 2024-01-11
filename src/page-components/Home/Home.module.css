@@ -1,0 +1,25 @@
+.carouselitems {
+  background: #F9F9F9;
+  height: 380px;
+  display: flex !important;
+  justify-content: space-evenly;
+  font-size: 1.2em;
+  font-weight: 700;
+  color: var(--secondary-blue);
+}
+
+.itemtitle {
+  font-size: 3.2em;
+}
+
+@media(max-width: 768px) {
+    .carouselitems {
+      height: auto !important;
+      font-size: 1.1em;
+    }
+
+
+.itemtitle {
+  font-size: 2.5em;
+}
+}

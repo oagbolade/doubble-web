@@ -1,0 +1,101 @@
+.tablecontainer {
+  width: 100%;
+  overflow-x: auto;
+}
+
+@media(min-width: 769px) {
+  .tablecontainer {
+    overflow-y: auto;
+    height: calc(100vh - 400px);
+  }
+}
+
+.tableheadrow {
+  width: 100%;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.tablerow {
+  width: 100%;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.tableitem:nth-child(1) {
+  font-weight: bold;
+}
+
+.tableitem {
+  border: none;
+  padding: 20px;
+  font-weight: 400;
+  font-size: 0.8em;
+}
+
+.tablehead {
+  text-align: left;
+  border: none;
+  padding: 20px;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+.separatetable {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 15px;
+}
+
+.collapsetable {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0 15px;
+}
+
+@media only screen and (max-width: 767px) {
+  .separatetable,
+  .tablehead,
+  .tableitem,
+  .tablerow,
+  .tablebody,
+  .collapsetable {
+    display: block;
+    text-align: left !important;
+  }
+
+  .tablehead {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  .tablerow {
+    margin: 0 0 1rem 0;
+    width: 100%;
+  }
+
+  .tablecontainer {
+    overflow: hidden;
+  }
+
+  .tableitem {
+    padding: 10px;
+  }
+
+  .tableitem:before {
+    content: attr(data-label);
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+    font-weight: bold;
+  }
+
+  .mobiletableitem {
+    text-align: left !important;
+    border: none;
+    padding: 20px;
+    font-weight: 400;
+    font-size: 0.8em;
+  }
+}
